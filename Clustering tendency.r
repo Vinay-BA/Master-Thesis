@@ -163,5 +163,6 @@ pca_iris = princomp(iris[,1:4])$scores[,1:2]
 plot(pca_iris, t='n')
 text(pca_iris, labels=iris$Species,col=colors[iris$Species])
 
+#this is a new line
 
 
